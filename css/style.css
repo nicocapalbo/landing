@@ -1,0 +1,100 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*Objects*/
+@import url(components/cards.css);
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+p {
+
+}
+
+.fab {
+  color: rgb(48,220,139);
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.header {
+  background: url(../images/background.png);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text h1 {
+  font-family: Poppins;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.header-text p {
+  color: rgba(250,250,250,0.9);
+  font-family: Open sans;
+  font-size: 22px;
+  color: white;
+}
+
+.header-text a {
+  display: inline-block;
+  background-color: rgb(48,220,139);
+  padding: 15px 25px;
+  border-radius: 35px;
+  color: white;
+  transition: 0.2s;
+}
+
+.header-text a:hover {
+  box-shadow: 0px 0px 10px 5px rgba(48,220,140,0.8);
+}
+
+.footer {
+  background-color: rgb(44,43,43);
+  width: 100%;
+  height: 200px;
+  /*text-align: center;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.footer p {
+  color: rgb(107,108,108);
+}
+
+.social-icons > li {
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 35px;
+}
+ul {
+  margin-top: 35px;
+}
+
+li {
+  margin: 0 10px;
+}
+
+
